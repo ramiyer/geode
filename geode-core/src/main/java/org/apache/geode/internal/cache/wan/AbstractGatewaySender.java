@@ -1036,7 +1036,7 @@ public abstract class AbstractGatewaySender implements InternalGatewaySender, Di
         if (this.isPrimary()) {
           tmpDroppedEvents.add(clonedEvent);
           if (isDebugEnabled) {
-            logger.debug("add to tmpDroppedEvents for evnet {}", clonedEvent);
+            logger.debug("add to tmpDroppedEvents for event {}", clonedEvent);
           }
         }
         if (isDebugEnabled) {
